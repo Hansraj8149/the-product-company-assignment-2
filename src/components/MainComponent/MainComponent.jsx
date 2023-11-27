@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
 import { Edit } from "@mui/icons-material";
-import { Grid, Paper, Typography, Button } from "@mui/material";
+import { Grid,Typography } from "@mui/material";
 import "./MainComponent.css";
 import CorporateInfoForm from "../../CorporateInfoForm/CorporateInfoForm";
 import AllowanceInfoForm from "../AllowancesInfoForm/AllowancesInfoForm";
@@ -248,49 +248,49 @@ const MainComponent = () => {
                 </Grid>
                 <Grid item xs={4}>
                   <Typography className="text-style">
-                    {savedAllowances.meritocracy == true ? "Yes" : "No"}
+                    {savedAllowances.meritocracy === true ? "Yes" : "No"}
                   </Typography>
                   <Typography className="text-style">
-                    {savedAllowances.annualHolidays == true ? "Yes" : "No"}
+                    {savedAllowances.annualHolidays === true ? "Yes" : "No"}
                   </Typography>
                   <Typography className="text-style">
-                    {savedAllowances.educationAndTraining == true
+                    {savedAllowances.educationAndTraining === true
                       ? "Yes"
                       : "No"}
                   </Typography>
                   <Typography className="text-style">
-                    {savedAllowances.qualificationSupport == true
+                    {savedAllowances.qualificationSupport === true
                       ? "Yes"
                       : "No"}
                   </Typography>
                   <Typography className="text-style">
-                    {savedAllowances.welfareBenefits == true ? "Yes" : "No"}
+                    {savedAllowances.welfareBenefits === true ? "Yes" : "No"}
                   </Typography>
                   <Typography className="text-style">
-                    {savedAllowances.reducedWorkingHours == true ? "Yes" : "No"}
+                    {savedAllowances.reducedWorkingHours === true ? "Yes" : "No"}
                   </Typography>
                   <Typography className="text-style">
-                    {savedAllowances.maternityCareLeave == true ? "Yes" : "No"}
+                    {savedAllowances.maternityCareLeave === true ? "Yes" : "No"}
                   </Typography>
                   <Typography className="text-style">
-                    {savedAllowances.companyHousing == true ? "Yes" : "No"}
+                    {savedAllowances.companyHousing === true ? "Yes" : "No"}
                   </Typography>
                   <Typography className="text-style">
-                    {savedAllowances.familyAllowance == true ? "Yes" : "No"}
+                    {savedAllowances.familyAllowance === true ? "Yes" : "No"}
                   </Typography>
                   <Typography className="text-style">
-                    {savedAllowances.employeeStockOwnership == true
+                    {savedAllowances.employeeStockOwnership === true
                       ? "Yes"
                       : "No"}
                   </Typography>
                   <Typography className="text-style">
-                    {savedAllowances.sideJob == true ? "Yes" : "No"}
+                    {savedAllowances.sideJob === true ? "Yes" : "No"}
                   </Typography>
                   <Typography className="text-style">
-                    {savedAllowances.mentorSystem == true ? "Yes" : "No"}
+                    {savedAllowances.mentorSystem === true ? "Yes" : "No"}
                   </Typography>
                   <Typography className="text-style">
-                    {savedAllowances.careerConsulting == true ? "Yes" : "No"}
+                    {savedAllowances.careerConsulting === true ? "Yes" : "No"}
                   </Typography>
                 </Grid>
               </Grid>
