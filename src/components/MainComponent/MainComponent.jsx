@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Edit } from "@mui/icons-material";
 import { Grid,Typography } from "@mui/material";
 import "./MainComponent.css";
-import CorporateInfoForm from "../../CorporateInfoForm/CorporateInfoForm";
+import CorporateInfoForm from "../CorporateInfoForm/CorporateInfoForm";
 import AllowanceInfoForm from "../AllowancesInfoForm/AllowancesInfoForm";
 const MainComponent = () => {
   const [isEditingCorporateInfo, setIsEditingCorporateInfo] = useState(false);

@@ -2,9 +2,7 @@
 import React, { useState } from 'react';
 import {
   Button,
-  FormControl,
   FormControlLabel,
-  FormGroup,
   Grid,
   Checkbox,
   Typography,
