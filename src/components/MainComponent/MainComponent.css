@@ -1,0 +1,47 @@
+
+  
+  .corporate-info {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: rgb(215, 208, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:rgb(39, 24, 126);
+  }
+  
+  .allowances {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .right-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .others,
+  .holidays {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+  .edit {
+    cursor: pointer;
+  }
+  .data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.text-style {
+  font-weight: bold;
+  font-size: 10px;
+  border-bottom: 1px solid rgb(186, 186, 186);
+  padding: 5px;
+
+}
